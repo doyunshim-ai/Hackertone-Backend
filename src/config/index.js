@@ -33,6 +33,7 @@ export default {
 
     
   databaseHOST: process.env.mysql2_HOST,
+  databasePORT: process.env.mysql2_PORT,
   databaseUSER: process.env.mysql2_USER,
   databasePASSWORD: process.env.mysql2_PASSWORD,
   databaseNAME: process.env.mysql2_DATABASE,

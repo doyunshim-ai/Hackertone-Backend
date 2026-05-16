@@ -4,7 +4,7 @@ import tempRepo from "../repositories/temp.js";
 import config from "../config/index.js";
 
 export default {
-  async createOtp(gachon_id) {
+  async createOtp(gachon_id) {git rm src/repositories/services/auth.js
     // 기가입자 체크
     const existingUser = await userRepo.findByGachonId(gachon_id);
     if (existingUser) {
@@ -69,4 +69,4 @@ export default {
     return user;
   }
 };
->>>>>>> bbe407b1d12ea21e685daf73b68daafd8c121910
+
